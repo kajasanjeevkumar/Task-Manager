@@ -14,7 +14,7 @@ The **Task Manager Application** is a full-stack task management application des
     ```
 2. Navigate to the backend directory:
     ```bash
-    cd todo_Kaja/Todo.Backend
+    cd Task-Manager/Todo.Backend
     ```
 3. Restore NuGet packages:
     ```bash
@@ -35,7 +35,7 @@ The **Task Manager Application** is a full-stack task management application des
 ### Frontend Setup (todo-frontend)
 1. Navigate to the frontend directory(Open new terminal):
     ```bash
-    cd todo_Kaja/Tod
+    cd Task-Manager/TaskManager.Frontend
     ```
 2. Copy the `.env.example` file to `.env.local`:
     ```bash
@@ -65,46 +65,7 @@ The **Task Manager Application** is a full-stack task management application des
 
 ---
 
-## How to Run the Project
-
-1. **Start the Backend Server**:
-   - Open a new terminal and navigate to the backend directory:
-     ```bash
-     cd todo_Kaja/TodoApi
-     ```
-   - Run the backend server:
-     ```bash
-     dotnet run
-     ```
-   - The backend will be available at `http://localhost:5025`.
-
-2. **Start the Frontend Server**:
-   - Open another terminal and navigate to the frontend directory:
-     ```bash
-     cd todo_Kaja/todo-frontend
-     ```
-   - Ensure the `.env.local` file is properly configured:
-     ```bash
-     cp .env.example .env.local
-     ```
-     - Open `.env.local` and verify the `NEXT_PUBLIC_API_BASE_URL` is set to:
-       ```bash
-       NEXT_PUBLIC_API_BASE_URL=http://localhost:5025/api
-       ```
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Start the frontend server:
-     ```bash
-     npm run dev
-     ```
-   - The frontend will be available at `http://localhost:3000`.
-
-3. **Access the Application**:
-   - Open your browser and navigate to `http://localhost:3000` to interact with the application.
-
-4. **Test the Application**:
+ **Test the Application**:
    - Register a new user or log in with an existing account.
    - Add, edit, delete, and manage tasks.
    - If you are an admin, test admin-specific features like managing other users' tasks.
@@ -297,5 +258,6 @@ todo-frontend/
 ├── next.config.ts          # Next.js configuration
 ├── README.md               # Frontend-specific README
 ```
+
 
 
