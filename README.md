@@ -1,7 +1,7 @@
-# Flexternship Todo Application
+# Task Manager Application
 
 ## Project Title & Description
-The **Flexternship Todo Application** is a full-stack task management application designed to help users organize their daily tasks efficiently. It includes features like adding, editing, deleting, and marking tasks as completed, ensuring better productivity and time management. The backend is built using **ASP.NET Core** with **Entity Framework**, while the frontend is developed using **Next.js** for a responsive and interactive user interface.
+The **Task Manager Application** is a full-stack task management application designed to help users organize their daily tasks efficiently. It includes features like adding, editing, deleting, and marking tasks as completed, ensuring better productivity and time management. The backend is built using **ASP.NET Core** with **Entity Framework**, while the frontend is developed using **Next.js** for a responsive and interactive user interface.
 
 ---
 
@@ -170,23 +170,23 @@ Users can interact with the application by:
 
 1. **Register**  
    New users can register by visiting the registration page before logging in.
-   ![image](https://github.com/user-attachments/assets/39d30c7c-2b4d-4616-9599-7c1eb2a6f77c)
+   <img width="1883" height="649" alt="image" src="https://github.com/user-attachments/assets/9e4032a6-bfca-4f30-a7cf-89ed3f172715" />
 
 2. **Login**
     Log in to access your personalized task dashboard as Admin/User. Auth is handled via JWT.
-    ![image](https://github.com/user-attachments/assets/9230393f-d63e-4936-a463-6cd3e8af6efa)
+    <img width="1649" height="457" alt="image" src="https://github.com/user-attachments/assets/068704b8-05fa-40a2-8282-46c22f9a6c94" />
 
 3. **View Tasks**  
    Your tasks are listed and sorted by due date with clear status and priority indicators.
-   ![image](https://github.com/user-attachments/assets/926c60f4-f5aa-4399-8123-8f7adb2efd97)
+   <img width="1671" height="709" alt="image" src="https://github.com/user-attachments/assets/decd66a5-af25-44fe-94cc-ea2492eb267e" />
 
-5. **Create a Task**  
+4. **Create a Task**  
    Click on "+ Add New Task" and enter task details like title, due date, category, and priority.
-   ![image](https://github.com/user-attachments/assets/906fbd6c-1a0d-4ce8-9d2c-dd48e919a0a8)
+   <img width="1357" height="756" alt="image" src="https://github.com/user-attachments/assets/c2e13174-b606-4b0e-a481-5ad61653c09b" />
 
-6. **Filter by Status, Category, or Priority**  
+5. **Filter by Status, Category, or Priority**  
    Use the filter bar to quickly find tasks based on your preferences.
-   ![image](https://github.com/user-attachments/assets/8cc6ec9c-cf81-4965-8258-3769b112169f)
+   <img width="1409" height="708" alt="image" src="https://github.com/user-attachments/assets/7b9ed3e1-2382-41ad-8301-41d2e4c700f5" />
 
 8. **Track Completion**  
    Mark tasks as completed using the checkbox. Progress is displayed via a progress bar.
@@ -199,7 +199,7 @@ Users can interact with the application by:
 
 11. **Admin Actions**  
    Admins can access `/admin/{userId}` or via username to manage another user’s tasks fully.
-   ![image](https://github.com/user-attachments/assets/035a392d-0201-4135-a1f7-e088456949cf)
+   <img width="1906" height="500" alt="image" src="https://github.com/user-attachments/assets/e31b7657-f648-41e2-a17f-e7ced3cb5d9d" />
 
 12. **Logout**  
    End your session securely using the logout button, which clears your token from local storage.
@@ -297,4 +297,5 @@ todo-frontend/
 ├── next.config.ts          # Next.js configuration
 ├── README.md               # Frontend-specific README
 ```
+
 
